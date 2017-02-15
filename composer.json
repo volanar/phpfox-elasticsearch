@@ -1,0 +1,16 @@
+{
+    "name": "khanhtsn/elastic-search",
+    "type": "project",
+    "authors": [
+        {
+            "name": "KhanhTSN",
+            "email": "khanhtsn@younetco.com"
+        }
+    ],
+    "require": {
+      "elasticsearch/elasticsearch": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {"Apps\\ElasticSearch\\Service\\": "Service/"}
+    }
+}
