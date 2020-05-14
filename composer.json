@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-      "elasticsearch/elasticsearch": "~5.0"
+      "elasticsearch/elasticsearch": "~6.8"
     },
     "autoload": {
         "psr-4": {"Apps\\ElasticSearch\\Service\\": "Service/"}
